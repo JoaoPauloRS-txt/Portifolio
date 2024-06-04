@@ -50,7 +50,7 @@
 }
 
 /*============= BREAKPOINTS ===============*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   .header{
     top: initial;
     bottom: 0;
@@ -61,9 +61,8 @@
 
   .nav__menu{
     position: fixed;
-    bottom: -100%;
+    bottom:-100%;
     left: 0;
-    width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
@@ -73,7 +72,7 @@
 
   /*    SHOW MENU */
   .show-menu{
-    bottom: 0;
+    bottom:0;
   }
 
   .nav__list{
@@ -100,7 +99,6 @@
   .nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
-
   }
   
   .nav__icon,
@@ -109,38 +107,9 @@
     display: block;
   }
 }
-@media screen and (max-width:768px) {
-    .header{
-      width:770px;
-    }
-    .show-menu{
-      width: 70px;
-    }
-    
-}
-@media screen and (max-width:576px) {
-  .header{
-    width:580px;
-
-  }
+@media screen and (max-width:992px) {
   .show-menu{
-    width:300px;
+    width: 100%;
   }
   
-}
-
-@media screen and (max-width:350px) {
-  .nav__menu{
-    padding: 2rem 0.25rem 4rem;
-  }
-
-  .nav__list{
-    column-gap: 0;
-  }
-  .header{
-    width:350px;
-  }
-  .show-menu{
-    width: 350px;
-  }
 }
