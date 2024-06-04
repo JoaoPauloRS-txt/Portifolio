@@ -1,6 +1,6 @@
 .header{
     display: inline;
-    width:100%;
+    width:100vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -114,16 +114,17 @@
       width:770px;
     }
     .show-menu{
-      width: 770px;
+      width: 70px;
     }
     
 }
 @media screen and (max-width:576px) {
   .header{
     width:580px;
+
   }
   .show-menu{
-    width: 580px;
+    width:300px;
   }
   
 }

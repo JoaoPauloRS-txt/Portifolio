@@ -72,6 +72,7 @@
   box-sizing:border-box;
 }
 html{
+  overflow: hidden;
   scroll-behavior: smooth;
 }
 body,
@@ -82,6 +83,7 @@ textarea{
   font-size: var(--normal-font-size);
 }
 body{
+  overflow: hidden;
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -154,6 +156,9 @@ img{
 .button--flex{
   display: inline-flex;
   align-items: center;
+}
+.main{
+  width: 100vw;
 }
 
 /*============= BREAKPOINTS ===============*/
